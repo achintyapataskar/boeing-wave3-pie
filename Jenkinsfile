@@ -7,7 +7,7 @@ pipeline {
         }
     }
 		tools {
-				jdk "jdk-1.8.101"
+				jdk "jdk-11.0.2"
 		}
     stages {
         stage('Build') { 
