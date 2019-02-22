@@ -188,16 +188,6 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>3.1.9</version>
             </plugin>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.7.0</version>
-    <configuration>
-        <source>11</source>
-        <target>11</target>
-        <verbose>true</verbose>
-    </configuration>
-</plugin>
 
         </plugins>
     </build>
