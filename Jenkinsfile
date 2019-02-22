@@ -6,6 +6,9 @@ pipeline {
             args '-v /root/.m2:/root/.m2' 
         }
     }
+		tools {
+				jdk "jdk-1.8.101"
+		}
     stages {
         stage('Build') { 
             steps {
